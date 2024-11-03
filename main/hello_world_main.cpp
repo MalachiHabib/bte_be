@@ -20,6 +20,6 @@ extern "C" void app_main()
             printf("Could not read data from sensor, error: %d\n", res);
         }
 
-        vTaskDelay(pdMS_TO_TICKS(2000)); // Wait 2 seconds before next reading
+        vTaskDelay(pdMS_TO_TICKS(2000));
     }
 }

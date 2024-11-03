@@ -4,6 +4,7 @@
 
 # Build directory
 /build/
+build
 
 # Component build directories
 /components/*/build/
