@@ -1,0 +1,120 @@
+# ------------------------------
+# ESP-IDF Specific Ignored Files
+# ------------------------------
+
+# Docker
+.devcontainer/*
+.devcontainer
+
+# Build directory
+/build/
+build
+*/build/
+
+# Component build directories
+/components/*/build/
+
+# SDK configuration files
+sdkconfig
+sdkconfig.defaults
+
+# Lock files
+sdkconfig.lock
+
+# Generated headers
+gen/
+
+# Partition tables
+partitions.csv
+partitions_singleapp.csv
+
+# Binary files
+*.bin
+*.elf
+*.map
+*.ota_data_initial.bin
+*.ota_data.bin
+*.spiffs.bin
+*.project
+
+# Temporary files
+/tmp/
+*.tmp
+*.log
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# IDF specific
+idf_component.yml
+
+# ------------------------------
+# IDE Specific Ignored Files
+# ------------------------------
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+*.iml
+
+# Eclipse
+.settings/
+*.launch
+*.cproject
+*.project
+
+# PlatformIO
+.platformio/
+
+# ------------------------------
+# Operating System Specific Files
+# ------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ------------------------------
+# Other Ignored Files
+# ------------------------------
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Node.js dependencies (if using with Node.js projects)
+node_modules/
+
+# Log files
+logs/
+*.log
+
+# Coverage reports
+coverage/
+
+# ------------------------------
+# Custom Ignored Files
+# ------------------------------
+
+# Add any additional files or directories you want to ignore below
+# Example:
+# secrets/
+# *.secret
